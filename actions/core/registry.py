@@ -1,33 +1,49 @@
+# REGISTRY = {
+#     "system.open_app": "actions.system.apps.open_app",
+#     "system.run_command": "actions.system.os_control.run_command",
+#     "system.copy_file": "actions.system.files.copy_file",
+#     "system.move_file": "actions.system.files.move_file",
+#     "system.delete_file": "actions.system.files.delete_file",
+#     "system.list_files": "actions.system.files.list_files",
+#     "system.download_file": "actions.system.files.download_file",
+#     "browser.youtube.search": "actions.browser.youtube.search",
+#     "browser.youtube.open": "actions.browser.youtube.open_youtube",
+#     "browser.web.open_url": "actions.browser.web.open_url",
+#     "browser.web.open": "actions.browser.web.open_url",
+#     "browser.web.search_on_page": "actions.browser.web.search_on_page",
+#     "automation.keyboard.type_text": "actions.automation.keyboard.type_text",
+#     "automation.keyboard.press_key": "actions.automation.keyboard.press_key",
+#     "automation.keyboard.hotkey": "actions.automation.keyboard.hotkey",
+#     "media.spotify.search_song": "actions.media.spotify.search_song",
+#     "media.spotify.open_app": "actions.media.spotify.open_spotify",
+#     "media.spotify.open": "actions.media.spotify.open_spotify",
+#     "media.spotify.play_song": "actions.media.spotify.play_song",
+#     "media.spotify.play_paused_song": "actions.media.spotify.play_song",
+#     "git.clone": "actions.advanced.workflows.git_clone",
+#     "git.open_in_vscode": "actions.advanced.workflows.open_in_vscode",
+# }
+
 REGISTRY = {
     "system.open_app": "actions.system.apps.open_app",
-
-    # ---------------------------
-    # YOUTUBE
-    # ---------------------------
+    "system.run_command": "actions.system.os_control.run_command",
+    "system.copy_file": "actions.system.files.copy_file",
+    "system.move_file": "actions.system.files.move_file",
+    "system.delete_file": "actions.system.files.delete_file",
+    "system.list_files": "actions.system.files.list_files",
+    "system.download_file": "actions.system.files.download_file",
     "browser.youtube.search": "actions.browser.youtube.search",
     "browser.youtube.open": "actions.browser.youtube.open_youtube",
-    "browser.youtube.play": "actions.browser.youtube.play_first_video",
-    "browser.youtube.share_whatsapp": "actions.browser.youtube.share_on_whatsapp",
-
-
-    # ---------------------------
-    # WEB
-    # ---------------------------
     "browser.web.open_url": "actions.browser.web.open_url",
     "browser.web.open": "actions.browser.web.open_url",
-    "browser.web.search": "actions.browser.web.search",   # ✅ ADD THIS
-
-    # ---------------------------
-    # AUTOMATION
-    # ---------------------------
+    "browser.web.search_on_page": "actions.browser.web.search_on_page",
     "automation.keyboard.type_text": "actions.automation.keyboard.type_text",
-
-    # ---------------------------
-    # SPOTIFY
-    # ---------------------------
+    "automation.keyboard.press_key": "actions.automation.keyboard.press_key",
+    "automation.keyboard.hotkey": "actions.automation.keyboard.hotkey",
     "media.spotify.search_song": "actions.media.spotify.search_song",
     "media.spotify.open_app": "actions.media.spotify.open_spotify",
     "media.spotify.open": "actions.media.spotify.open_spotify",
     "media.spotify.play_song": "actions.media.spotify.play_song",
     "media.spotify.play_paused_song": "actions.media.spotify.play_song",
+    "git.clone": "actions.advanced.workflows.git_clone",
+    "git.open_in_vscode": "actions.advanced.workflows.open_in_vscode",
 }

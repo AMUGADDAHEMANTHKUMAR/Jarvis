@@ -7,6 +7,8 @@ REGISTRY = {
     "browser.youtube.search": "actions.browser.youtube.search",
     "browser.youtube.open": "actions.browser.youtube.open_youtube",
     "browser.youtube.play": "actions.browser.youtube.play_first_video",
+    "browser.youtube.share_whatsapp": "actions.browser.youtube.share_on_whatsapp",
+
 
     # ---------------------------
     # WEB
